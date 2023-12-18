@@ -1,7 +1,7 @@
 * {
     margin:0;
-    padding: 0
-    box-sizing:border-box;
+    padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
@@ -26,18 +26,22 @@ form label, form input {
     width: 100%;
 }
 
-.input-email {
-    padding: 5px;
-    border-radius: 5px;
-    margin-top: 2px;
-    font-size: 16px;
+form label, form input {
+    display: block;
+    width: 100%;
 }
 
-.label-email {
-    margin-top: 10px;
-    font-weight: bold;
-}
 
 button {
     padding: 0 10px 0 0;
+}
+
+.label.pass {
+   font-weight: bold;
+   margin-top: 10px; 
+}
+
+.input.pass {
+    font-size: 16px;
+    border-radius: 2px;
 }

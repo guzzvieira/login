@@ -16,7 +16,7 @@ body {
 }
 
 #form-wrap {
-    width: 400px;
+    width: 500px;
     background-color: #fff;
     padding: 10px;
 }
@@ -24,4 +24,20 @@ body {
 form label, form input {
     display: block;
     width: 100%;
+}
+
+.input-email {
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 2px;
+    font-size: 16px;
+}
+
+.label-email {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button {
+    padding: 0 10px 0 0;
 }
